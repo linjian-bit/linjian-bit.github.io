@@ -1,0 +1,21 @@
+# 顶层主导航栏 (Main Masthead Navigation)
+main:
+  # 1. 根节点路由
+  - title: "Home"
+    url: /
+
+  # 2. 核心学术产出
+  - title: "Publications"
+    url: /publications/
+
+  # 3. 研究领域与工程架构
+  - title: "Research"
+    url: /research/
+
+  # 4. 博客与技术笔记
+  - title: "Posts"
+    url: /posts/
+
+  # 5. 个人背景与经历
+  - title: "CV"
+    url: /cv/
