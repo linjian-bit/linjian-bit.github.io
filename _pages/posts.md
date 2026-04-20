@@ -1,8 +1,8 @@
 ---
 title: "Posts"
-layout: single
+layout: posts
 permalink: /posts/
 author_profile: true
 ---
 
-Coming soon!
+<!-- Coming soon! -->
