@@ -12,9 +12,9 @@ main:
   - title: "Research"
     url: /research/
 
-  # 4. 博客与技术笔记
-  - title: "Posts"
-    url: /posts/
+  # # 4. 博客与技术笔记
+  # - title: "Posts"
+  #   url: /posts/
 
   # 5. 个人背景与经历
   - title: "CV"
