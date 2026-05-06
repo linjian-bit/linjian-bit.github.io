@@ -17,7 +17,7 @@ permalink: /cv/
 
 # Curriculum Vitae
 
-[Download My CV](/assets/pdf/CV-Jian.pdf)
+[Download My CV](/assets/pdf/CV-Jian-EN.pdf)
 
 ## Education
 
@@ -27,8 +27,14 @@ permalink: /cv/
 ## Publications
 * Approximate DBSCAN via Density-Biased Sampling and Kernel Density Estimation, **SIGMOD 2026**.
 
+
+## Funded Project
+* Principal Investigator, Shenzhen University 2026 Graduate Student Independent Innovation Achievement Cultivation Program, 2026, RMB 50,000.
+
+
 ## Honors (Selected)
 * [2026] Top 100 Outstanding Bachelor's Theses, Class of 2026, Shenzhen University (Top 1.5%) 
+
 
 ## Scholarships & Awards (Selected)
 * [2026] Integrated Bachelor–PhD Program Scholarship, Shenzhen University
@@ -42,7 +48,7 @@ permalink: /cv/
 
 # 个人简历
 
-[下载我的简历](/assets/pdf/CV-Jian.pdf)
+[下载我的简历](/assets/pdf/CV-Jian-CN.pdf)
 
 ## 教育背景
 
@@ -52,8 +58,14 @@ permalink: /cv/
 ## 发表论文
 * Approximate DBSCAN via Density-Biased Sampling and Kernel Density Estimation, **SIGMOD 2026**.
 
+
+## 科研项目
+* 项目负责人, 深圳大学2026年研究生自主创新成果培育项目, 2026, 人民币50,000元。
+
+
 ## 荣誉奖项 (部分)
 * [2026] 深圳大学 2026 届百篇优秀本科毕业论文 (前 1.5%)
+
 
 ## 奖学金及奖项 (部分)
 * [2026] 深圳大学本博一体化培养奖学金
