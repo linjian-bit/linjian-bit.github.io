@@ -1,29 +1,30 @@
 ---
 title: "Curriculum Vitae / 个人简历"
-layout: splash
 permalink: /cv/
+layout: splash
 ---
 
-<div class="lang-toggle-container">
-  <span class="lang-label" id="label-en" style="color: #007bff;">English</span>
-  <label class="switch">
-    <input type="checkbox" id="langSwitch" onchange="toggleLanguage()">
-    <span class="slider round"></span>
-  </label>
-  <span class="lang-label" id="label-zh" style="color: #888;">中文</span>
+<div class="cv-header">
+  <h1 id="cv-title">Curriculum Vitae</h1>
+
+  <div class="lang-toggle-container">
+    <span class="lang-label" id="label-en" style="color: #007bff;">English</span>
+    <label class="switch">
+      <input type="checkbox" id="langSwitch" onchange="toggleLanguage()">
+      <span class="slider round"></span>
+    </label>
+    <span class="lang-label" id="label-zh" style="color: #888;">中文</span>
+  </div>
 </div>
 
 <div class="lang-en" markdown="1">
-
-# Curriculum Vitae
 
 [Download My CV](/assets/pdf/CV-Jian-EN.pdf)
 
 ## Education
 
 * [2026.09 – 2031.07 (Expected)] PhD Student at [DBGroup@SZU](https://szu-dbgroup.github.io/), supervised by Prof. Dingming Wu, [CSSE](https://csse.szu.edu.cn/), [Shenzhen University](https://www.szu.edu.cn/) (SZU), China
-* [2022.09 – 2026.07] B.Eng. in Computer Science and Technology (Outstanding Class), [CSSE](https://csse.szu.edu.cn/), [Shenzhen University](https://www.szu.edu.cn/) (SZU), China
-
+* [2022.09 – 2026.07] B.Eng. in Computer Science and Technology (Excellence Class), with Honors, [CSSE](https://csse.szu.edu.cn/), [Shenzhen University](https://www.szu.edu.cn/) (SZU), China
 ## Publications
 * Approximate DBSCAN via Density-Biased Sampling and Kernel Density Estimation, **SIGMOD 2026**.
 
@@ -33,6 +34,7 @@ permalink: /cv/
 
 
 ## Honors (Selected)
+* [2026] Bachelor’s Degree with Honors, Shenzhen University (Top 3.0%) 
 * [2026] Top 100 Outstanding Bachelor's Theses, Class of 2026, Shenzhen University (Top 1.5%) 
 
 
@@ -46,14 +48,13 @@ permalink: /cv/
 
 <div class="lang-zh" style="display: none;" markdown="1">
 
-# 个人简历
 
 [下载我的简历](/assets/pdf/CV-Jian-CN.pdf)
 
 ## 教育背景
 
 * [2026.09 – 2031.07 (预计)] 博士研究生，[深圳大学数据库课题组 (DBGroup@SZU)](https://szu-dbgroup.github.io/)，导师：吴定明副教授，[计算机与软件学院](https://csse.szu.edu.cn/)，[深圳大学](https://www.szu.edu.cn/)
-* [2022.09 – 2026.07] 工学学士，计算机科学与技术 (卓越班)，[计算机与软件学院](https://csse.szu.edu.cn/)，[深圳大学](https://www.szu.edu.cn/)
+* [2022.09 – 2026.07] 工学荣誉学士，计算机科学与技术 (卓越班)，[计算机与软件学院](https://csse.szu.edu.cn/)，[深圳大学](https://www.szu.edu.cn/)
 
 ## 发表论文
 * Approximate DBSCAN via Density-Biased Sampling and Kernel Density Estimation, **SIGMOD 2026**.
@@ -64,6 +65,7 @@ permalink: /cv/
 
 
 ## 荣誉奖项 (部分)
+* [2026] 深圳大学荣誉学士学位 (前 3.0%)
 * [2026] 深圳大学 2026 届百篇优秀本科毕业论文 (前 1.5%)
 
 
@@ -76,19 +78,26 @@ permalink: /cv/
 </div>
 
 <style>
-/* 容器样式：靠右对齐，垂直居中 */
+.cv-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 标题左边，开关右边 */
+  gap: 16px;
+}
+
+.cv-header h1 {
+  margin: 0;
+}
+
 .lang-toggle-container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 12px;
-  margin-bottom: 25px;
-  font-family: inherit;
-  font-weight: bold;
+  gap: 8px;
 }
 
 .lang-label {
   font-size: 0.9em;
+  font-weight: 700;
   transition: color 0.3s ease;
 }
 
@@ -158,19 +167,26 @@ function toggleLanguage() {
   var zhElements = document.querySelectorAll('.lang-zh');
   var labelEn = document.getElementById('label-en');
   var labelZh = document.getElementById('label-zh');
+  var cvTitle = document.getElementById('cv-title');
   
   if (isChecked) {
     // 切换到中文
     enElements.forEach(el => el.style.display = 'none');
     zhElements.forEach(el => el.style.display = 'block');
-    labelEn.style.color = '#888';       // 英文标签变灰
-    labelZh.style.color = '#007bff';    // 中文标签高亮
+
+    labelEn.style.color = '#888';
+    labelZh.style.color = '#007bff';
+
+    cvTitle.textContent = '个人简历';
   } else {
     // 切换回英文
     zhElements.forEach(el => el.style.display = 'none');
     enElements.forEach(el => el.style.display = 'block');
-    labelZh.style.color = '#888';       // 中文标签变灰
-    labelEn.style.color = '#007bff';    // 英文标签高亮
+
+    labelZh.style.color = '#888';
+    labelEn.style.color = '#007bff';
+
+    cvTitle.textContent = 'Curriculum Vitae';
   }
 }
 </script>
