@@ -34,7 +34,8 @@ layout: splash
 
 
 ## Honors (Selected)
-* [2026] Bachelor’s Degree with Honors, Shenzhen University (Top 3.0%) 
+* [2026] Outstanding Graduate of Shenzhen University
+* [2026] Bachelor’s Degree with Honors, Shenzhen University
 * [2026] Top 100 Outstanding Bachelor's Theses, Class of 2026, Shenzhen University (Top 1.5%) 
 
 
@@ -65,7 +66,8 @@ layout: splash
 
 
 ## 荣誉奖项 (部分)
-* [2026] 深圳大学荣誉学士学位 (前 3.0%)
+* [2026] 深圳大学优秀毕业生
+* [2026] 深圳大学荣誉学士学位
 * [2026] 深圳大学 2026 届百篇优秀本科毕业论文 (前 1.5%)
 
 
