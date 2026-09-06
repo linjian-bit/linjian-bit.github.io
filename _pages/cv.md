@@ -26,6 +26,7 @@ layout: splash
 * [2026.09 – 2031.07 (Expected)] PhD Student at [DBGroup@SZU](https://szu-dbgroup.github.io/), supervised by Prof. Dingming Wu, [CSSE](https://csse.szu.edu.cn/), [Shenzhen University](https://www.szu.edu.cn/) (SZU), China
 * [2022.09 – 2026.07] B.Eng. in Computer Science and Technology (Excellence Class), with Honors, [CSSE](https://csse.szu.edu.cn/), [Shenzhen University](https://www.szu.edu.cn/) (SZU), China
 
+
 ## Publications
 * Approximate DBSCAN via Density-Biased Sampling and Kernel Density Estimation, **SIGMOD 2026**.
 
@@ -41,6 +42,7 @@ layout: splash
 
 
 ## Scholarships & Awards (Selected)
+* [2026] SIGMOD 2026 Student Travel Grant Award
 * [2026] Integrated Bachelor–PhD Program Scholarship, Shenzhen University
 * [2025] Second Prize, Top-notch Innovative Talent Scholarship, Shenzhen University
 * [2024] Second Prize, Top-notch Innovative Talent Scholarship, Shenzhen University
@@ -73,6 +75,7 @@ layout: splash
 
 
 ## 奖学金及奖项 (部分)
+* [2026] SIGMOD 2026 学生旅行资助奖
 * [2026] 深圳大学本博一体化培养奖学金
 * [2025] 深圳大学拔尖创新人才奖学金，二等奖
 * [2024] 深圳大学拔尖创新人才奖学金，二等奖
